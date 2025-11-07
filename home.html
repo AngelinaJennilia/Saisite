@@ -1,0 +1,334 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Abhayankar website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <style>
+      body{
+        scrollbar-width: none;
+        background-color:rgb(253, 253, 252);
+      }
+   .main-img-desk{
+    width:100%;
+    height:auto;
+    display: block;
+    position: relative;
+   }
+   .footer a{
+    color: rgb(167, 160, 124);
+    text-decoration: none;
+  }
+   .main-img-phone{
+    display: none;
+   }
+   .navbar{
+    position: sticky;
+    z-index: 1000;
+   }
+   .navbar-brand{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   img{
+    max-width: 100%;
+    max-height: 100%;
+   }
+   .monitor{
+    display: none;
+   }
+   @media (min-width: 800px) and (max-width: 1024px) {
+  .experience {
+    height: 16vh!important;
+    
+  }
+  .monitor{
+    display: none;
+   }
+}
+  .song img{
+    transition: transform 0.3s ease;
+    border-radius: 5px;
+    width: 360px;
+    height:350px;
+    object-fit: cover;
+    border-radius:5px;
+  }
+  .song:hover{
+    transform: scale(1.1);
+    box-shadow: 80px;
+  }
+
+  .experience{
+    height:28vh;
+    width:98%;
+    border-radius: 2%;
+    background: linear-gradient(45deg,#ca980d,#f5e588,#91cee0,#4e9c3e);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+  }
+  @keyframes color{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+  @keyframes appear{
+    from{
+      opacity:0;
+      scale:0.5;
+    }
+    to{
+      opacity:1;
+      transform: scale(1);
+    }
+  }
+  .block{
+    animation: appear 12s ease-out forwards;
+  }
+  .footer{
+    background-color: black;
+    color: rgb(167, 160, 124);
+  }
+  .mob-text{
+    display: none;
+  }
+  .desk-text{
+    display: block;
+  }
+  @media (max-width: 1024px) and (orientation: portrait){
+
+    .mob-text{
+    display: block;
+  }
+  .desk-text{
+    display: none;
+  }
+  .main-img-phone{
+    width:100%;
+    height:auto;
+    display: block;
+    position: relative;
+   }
+   .main-img-desk{
+    display: none;
+   }
+  }
+  @media(min-width: 1440px){
+    .experience{
+    height:19vh;
+  }
+  .monitor{
+    display: block;
+   }
+  }
+
+    </style>
+</head>
+<body>
+  
+  <section class="page1">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white text-uppercase fs-2">Saisite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+             <ul class="navbar-nav me-auto mb-2 ms-lg-5 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white bg-dark" aria-current="page" href="">Home</a>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link text-white active" href="Discography.html">Releases</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="quiz.html">Quiz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="signup.html">Sign up</a>
+        </li>
+      </ul>
+      <span class="navbar-text text-center text-white">
+        
+      </span>
+        </div>
+    </div>
+   </nav>
+   
+ <img src="home page sai.jpg" alt="home page sai" class="main-img-desk">
+ <img src="phone home.jpg" alt="home page sai" class="main-img-phone" tabindex="0">
+ <h3 class="fw-bold ps-4 pt-1">About this page</h3>
+  <p class="desk-text ms-4 me-4 mb-4">Welcome to SaiSite!
+This fan page celebrates the music and journey of Sai Abhayankar, a 22-year-old singer and musician known for his incredible voice and creativity. Born into a family of musicians, Sai was inspired from an early age to follow in his parents’ footsteps. His passion, talent, and dedication have helped him create songs that connect deeply with listeners.
+
+Here, you can explore more about Sai’s story, discover what drives his music, and even take a fun quiz that recommends one of his songs based on your current mood. Whether you’re a fan or just curious, this site is your window into the world of Sai Abhayankar — a young artist whose music continues to inspire and bring joy to many. His unique blend of emotion and energy makes every song a memorable experience. Come explore, listen, and celebrate the sound of Sai!</p>
+<p class="mob-text ms-4 me-4 mb-3">Welcome to Saisite! This is a fan site meant to showcase music created by Sai Abhayankar and his life story which brought him to success. Get a song of his recommended to you (through a quiz!) for fans and people who want to know more about him.</p>
+<section class="page2">
+<div class="experience container-fluid text-center py-4">
+<h1 class="display-5 fw-bold gradient-text">Experience the young prodigy's life story</h1>
+<div class="text-center mt-4 fw-bold">
+<button type="button"  class="btn btn-dark p-2 ps-5 pe-5 fs-5" onclick="window.location.href='lifestory.html'">Start experience</button>
+</div>
+</div>
+<h3 class="fw-bold ms-3 mb-2 mt-3">Latest Releases</h3>
+
+<div class="release container-fluid d-none d-lg-block ps-3 pe-3">
+  <div class="d-flex flex-nowrap align-items-center">
+    <div class="song img-fluid me-2">
+     <img src="vizhi slider.jpg" style="cursor:pointer ;" tabindex="0" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Do you want to listen on Spotify?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <button type="button" onclick="window.location.href='https://open.spotify.com/track/6OEY4EgyHxwJ8IhanTnvEL?si=bfd8b1ad04e74b22';" class="btn btn-primary">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="song img-fluid me-2">
+      <img src="oorum blood.webp" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor:pointer ;" tabindex="0" role="button">
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Do you want to listen on Spotify?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <button type="button" onclick="window.location.href='https://open.spotify.com/track/6EzB9lIW27iSTd0c2V4t3K?si=2e3ee885d47243bd';" class="btn btn-primary">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="song img-fluid me-2" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="cursor:pointer ;" tabindex="0" role="button">
+      <img src="aasa kooda.jpg">
+    </div>
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Do you want to listen on Spotify?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <button type="button" onclick="window.location.href='https://open.spotify.com/track/0MTdYgTZ25sLCO6kVnDoje?si=b6dd6db228b541f5';" class="btn btn-primary">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+     <div class="song img-fluid me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor:pointer ;" tabindex="0" role="button">
+      <img src="jaalakari.jpg">
+    </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Do you want to listen on Spotify?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <button type="button" onclick="window.location.href='https://open.spotify.com/track/0aMi5DHyTwYrlOcxp1AM3v?si=132eaf6e88f84d9b';" class="btn btn-primary">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="monitor">
+ <div class="song img-fluid me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor:pointer ;" tabindex="0" role="button">
+      <img src="nallaru.webp">
+    </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Do you want to listen on Spotify?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <button type="button" onclick="window.location.href='https://open.spotify.com/track/0aMi5DHyTwYrlOcxp1AM3v?si=132eaf6e88f84d9b';" class="btn btn-primary">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <div class="discographybtn img-fluid me-1">
+      <button type="button" class="btn btn-dark" onclick="window.location.href='Discography.html'">></button>
+    </div>
+  </div>
+  <p class="ms-3">Tracks that heal your soul</p>
+</div>
+<!--ipad-->
+<div class="ipadrelease ipadrelease container-fluid d-none d-sm-block d-lg-none ps-3 pe-3">
+  <div class="d-flex flex-nowrap align-items-center">
+    <div class="song img-fluid me-2">
+     <img src="vizhi slider.jpg" onclick="window.location.href='https://open.spotify.com/track/6OEY4EgyHxwJ8IhanTnvEL?si=bfd8b1ad04e74b22';" style="cursor:pointer ;" tabindex="0" role="button">
+    </div>
+    <div class="song img-fluid me-2">
+      <img src="oorum blood.webp" onclick="window.location.href='https://open.spotify.com/track/6EzB9lIW27iSTd0c2V4t3K?si=2e3ee885d47243bd';" style="cursor:pointer ;" tabindex="0" role="button">
+    </div>
+    <div class="discographybtn img-fluid me-0">
+      <button type="button" class="btn btn-dark" onclick="window.location.href='Discography.html'">></button>
+    </div>
+  </div>
+  <p class="ms-3">Tracks that heal your soul</p>
+</div>
+<!--phone-->
+<div class="phonerelease container-fluid d-block d-sm-none ps-3 pe-3">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="vizhi slider.jpg" onclick="window.location.href='https://open.spotify.com/track/6OEY4EgyHxwJ8IhanTnvEL?si=bfd8b1ad04e74b22';" style="cursor:pointer ;" class="d-block w-100" alt="Vizhi veekure song poster" tabindex="0" role="button">
+    </div>
+    <div class="carousel-item">
+      <img src="oorum blood.webp" onclick="window.location.href='https://open.spotify.com/track/6EzB9lIW27iSTd0c2V4t3K?si=2e3ee885d47243bd';" style="cursor:pointer ;" class="d-block w-100" alt="Oorum blood song poster" tabindex="0" role="button">
+    </div>
+    <div class="carousel-item">
+      <img src="aasa kooda.jpg" onclick="window.location.href='https://open.spotify.com/track/0MTdYgTZ25sLCO6kVnDoje?si=b6dd6db228b541f5';" style="cursor:pointer ;" class="d-block w-100" alt="Aasa kooda song poster" tabindex="0" role="button">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="text-center">
+<button type="button" onclick="location.href='Discography.html'" class="btn btn-dark ps-4 pe-4 fw-bold m-2">View all</button>
+</div>
+</section>
+<footer class="footer p-4">
+  <div class="text-center">
+    <a href="Discography.html">Releases |</a>
+    <a href="Lifestory.html"> Life Story |</a>
+    <a href="quiz.html"> Quiz |</a>
+    <a href="signup.html">Sign up</a>
+    <h5 class="mt-4"> Contacts</h5>
+    <p>Instagram: @saistagram</p>
+    <p>Facebook: @saistagram</p>
+    <p>Gmail: sai@gmail.com</p>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
